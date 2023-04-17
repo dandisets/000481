@@ -50,7 +50,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-04-17T18:35:01.452343+00:00'
-datePublished: '2023-04-17T19:48:01.333234+00:00'
+datePublished: '2023-04-17T21:48:59.790268+00:00'
 description: 'Extracellular recordings from rabbit visual cortex neurons. Orientation
   testing with drifting grating stimuli. Hippocampal EEG for the state scoring procedure. '
 doi: 10.80507/dandi.123456/0.123456.1234
@@ -66,13 +66,13 @@ manifestLocation:
 name: State-dependent processing in visual cortex
 protocol: []
 publishedBy:
-  endDate: '2023-04-17T19:48:01.333234+00:00'
-  id: urn:uuid:96b8fb09-7ded-42bd-8d7e-10a0e3de1404
+  endDate: '2023-04-17T21:48:59.790268+00:00'
+  id: urn:uuid:8998f873-1f6b-4890-8a6b-50d68c1ca014
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-04-17T19:48:01.333234+00:00'
+  startDate: '2023-04-17T21:48:59.790268+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:c2fa22fa-2da2-439b-bece-3d6ff2390248
+  - id: urn:uuid:d1b731e1-81db-4b5e-be81-402e53d4801b
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
