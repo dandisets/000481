@@ -7,11 +7,40 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 6457880
+  numberOfFiles: 2
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9986
+    name: Oryctolagus cuniculus - Rabbits
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectrodeGroup
+  - Units
+  - ElectricalSeries
+  - LFP
+  - ProcessingModule
 citation: Bereshpolova, Yulia (2023) State-dependent processing in visual cortex (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000481/draft
+  draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: yuliya.bereshpolova@uconn.edu
@@ -21,8 +50,10 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-04-17T18:35:01.452343+00:00'
+datePublished: '2023-04-17T19:48:01.333234+00:00'
 description: 'Extracellular recordings from rabbit visual cortex neurons. Orientation
   testing with drifting grating stimuli. Hippocampal EEG for the state scoring procedure. '
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000481/draft
 identifier: DANDI:000481
@@ -34,6 +65,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000481/versions/draft/assets/
 name: State-dependent processing in visual cortex
 protocol: []
+publishedBy:
+  endDate: '2023-04-17T19:48:01.333234+00:00'
+  id: urn:uuid:96b8fb09-7ded-42bd-8d7e-10a0e3de1404
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-04-17T19:48:01.333234+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:c2fa22fa-2da2-439b-bece-3d6ff2390248
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
