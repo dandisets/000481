@@ -40,7 +40,7 @@ assetsSummary:
   - LFP
   - ProcessingModule
 citation: Bereshpolova, Yulia (2023) State-dependent processing in visual cortex (Version
-  draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  0.230417.2148) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000481/0.230417.2148
 contributor:
 - affiliation: []
   email: yuliya.bereshpolova@uconn.edu
@@ -53,16 +53,16 @@ dateCreated: '2023-04-17T18:35:01.452343+00:00'
 datePublished: '2023-04-17T21:48:59.790268+00:00'
 description: 'Extracellular recordings from rabbit visual cortex neurons. Orientation
   testing with drifting grating stimuli. Hippocampal EEG for the state scoring procedure. '
-doi: 10.80507/dandi.123456/0.123456.1234
+doi: 10.48324/dandi.000481/0.230417.2148
 ethicsApproval: []
-id: DANDI:000481/draft
+id: DANDI:000481/0.230417.2148
 identifier: DANDI:000481
 keywords:
 - electrophysiology, signal processing
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000481/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000481/0.230417.2148/assets.yaml
 name: State-dependent processing in visual cortex
 protocol: []
 publishedBy:
@@ -83,6 +83,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget:
 - Simple cell of L4
-url: https://dandiarchive.org/dandiset/000481/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000481/0.230417.2148
+version: 0.230417.2148
 wasGeneratedBy: []
